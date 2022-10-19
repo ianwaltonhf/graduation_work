@@ -1,0 +1,49 @@
+.HeadNav {
+	height: 100px;
+}
+
+.Intro{
+	height: 500px;
+}
+
+.AboutProject{
+    height: 376px;
+}
+
+.Cards{
+    height: 640px;
+}
+
+.List{
+    height: 594px;
+}
+
+.Mission{
+    height: 565px;
+}
+
+@media (max-width: 425px){
+    .HeadNav {
+        height: 92px;
+    }
+    
+    .Intro{
+        height: 575px;
+    }
+    
+    .AboutProject{
+        height: 356px;
+    }
+    
+    .Cards{
+        height: 1222px;
+    }
+    
+    .List{
+        height: 1080px;
+    }
+    
+    .Mission{
+        height: 860px;
+    }
+}

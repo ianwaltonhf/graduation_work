@@ -1,0 +1,139 @@
+.header {
+    font-family: 'SF-Pro-Bold';
+    font-size: 5rem;
+    line-height: 6rem;
+
+    @media (max-width: 425px){
+        font-size: 3.75rem;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+}
+
+.text, button, .card_text_wrapper {
+    font-family: 'SF-Pro-Regular';
+    font-size: 2.25rem;
+    line-height: 3rem;
+
+    @media (max-width: 425px){
+        text-align: center;
+    }
+}
+
+.text{
+    color: var(--fc-gray-dark);
+}
+
+.header_wrapper, .text_wrapper, .button_wrapper {
+    margin-bottom: 3rem;
+
+    @media (max-width: 425px){
+        text-align: center;
+    }
+}
+
+.text_wrapper{
+    @media (max-width: 425px){
+
+    }
+}
+
+.btn_default {
+    font-family: 'SF-Pro-Bold';
+    height: 7rem;
+    padding: 0 5.25rem;
+    background-color: var(--btn-yellow);
+    transition: ease-in .2s;
+    border-style: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    &:hover{
+        background-color: var(--btn-hover-yellow);
+        transition: ease-in .2s;
+    }
+}
+
+.card_title_wrapper{
+    margin-top: 4.54625rem;
+    font-family: 'SF-Pro-Bold';
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+
+    @media (max-width: 425px){
+        margin-top: 0;
+        transition: none;
+    }
+}
+
+.card img, .card_title_wrapper, .list_title_wrapper {
+    
+    @media (max-width: 425px){
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.card:hover .card_title_wrapper {
+    margin-top: 0;
+    @media (max-width: 425px){
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.card:hover .card_title_wrapper{
+    margin-bottom: 1.5rem;
+    @media (max-width: 425px){
+        transition: none;
+    }
+}
+
+.Mission .header_wrapper {
+    margin-bottom: 5rem;
+}
+
+.Mission .text_wrapper {
+    margin-bottom: 6.875rem;
+}
+
+.Mission .button_wrapper {
+    margin-bottom: 0;
+}
+
+.List .header_wrapper{
+    margin-bottom: 5rem;
+}
+
+.list_title_wrapper {
+    font-family: 'SF-Pro-Bold';
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.list_text_wrapper{
+    width: 50rem;
+    font-family: 'SF-Pro-Regular';
+    font-size: 2.25rem;
+    line-height: 3rem;
+    color: var(--fc-gray-1);
+}
+
+.list_title_wrapper span a{
+    color: none;
+    color: var(--fc-list-1-text-blue);
+    &:hover{
+        border-bottom:1px solid var(--fc-list-1-text-blue);
+        cursor: pointer;
+    }
+}
+
+a {
+    all: unset;
+}
+
+a:not(.default):link { 
+    color: var(--fc-list-1-text-blue);
+}
