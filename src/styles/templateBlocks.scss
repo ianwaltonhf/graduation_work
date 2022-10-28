@@ -3,7 +3,7 @@
     font-size: 5rem;
     line-height: 6rem;
 
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         font-size: 3.75rem;
         line-height: 4.5rem;
         text-align: center;
@@ -15,7 +15,7 @@
     font-size: 2.25rem;
     line-height: 3rem;
 
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         text-align: center;
     }
 }
@@ -27,13 +27,13 @@
 .header_wrapper, .text_wrapper, .button_wrapper {
     margin-bottom: 3rem;
 
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         text-align: center;
     }
 }
 
 .text_wrapper{
-    @media (max-width: 425px){
+    @media (max-width: 767px){
 
     }
 }
@@ -49,7 +49,6 @@
     cursor: pointer;
     &:hover{
         background-color: var(--btn-hover-yellow);
-        transition: ease-in .2s;
     }
 }
 
@@ -59,15 +58,15 @@
     font-size: 2.5rem;
     line-height: 3.25rem;
 
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         margin-top: 0;
-        transition: none;
+        transition: all 0.2s linear;
     }
 }
 
 .card img, .card_title_wrapper, .list_title_wrapper {
     
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         text-align: center;
         margin-top: 0;
         margin-bottom: 1.5rem;
@@ -76,7 +75,8 @@
 
 .card:hover .card_title_wrapper {
     margin-top: 0;
-    @media (max-width: 425px){
+    transition: all 0.2s linear;
+    @media (max-width: 767px){
         text-align: center;
         margin-top: 0;
         margin-bottom: 1.5rem;
@@ -85,7 +85,7 @@
 
 .card:hover .card_title_wrapper{
     margin-bottom: 1.5rem;
-    @media (max-width: 425px){
+    @media (max-width: 767px){
         transition: none;
     }
 }
@@ -119,6 +119,10 @@
     font-size: 2.25rem;
     line-height: 3rem;
     color: var(--fc-gray-1);
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        width: 100%;
+    }
 }
 
 .list_title_wrapper span a{

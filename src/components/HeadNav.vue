@@ -78,7 +78,7 @@
 
             checkScreen(){
                 this.windowWidth = window.innerWidth;
-                if (this.windowWidth <= 750){
+                if (this.windowWidth <= 768){
                     this.mobile = true;
                     return;
                 }
